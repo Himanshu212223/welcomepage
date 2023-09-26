@@ -108,6 +108,10 @@ body{
 .tile i{
     transition: all 0.3s ease-in-out;
 }
+.tile .info{
+    font-size: medium;
+    transition: all 0.3s ease-in-out;
+}
 .tile:hover{
     scale: 104%;
     transition: all 0.3s ease-in-out;
@@ -126,6 +130,10 @@ body{
 }
 .tile:hover .Text{
     color: rgb(202, 158, 101);
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.tile:hover .info{
     color: black;
     transition: all 0.3s ease-in-out;
 }
